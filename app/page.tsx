@@ -6,8 +6,8 @@ export default function Home() {
     <main className={styles.container}>
       <h1 className={styles.card_title}>{defaultText.title}</h1>
       <div className={styles.cards_container}>
-        {frameworks.map((item, index) => (
-          <div className={styles.card}>
+        {frameworks.map((item) => (
+          <div className={styles.card} key={item.title}>
             <div className={styles.img_container}>
               <img className={styles.img} src={`./img/${item.img}`} />
             </div>
