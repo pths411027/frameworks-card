@@ -75,7 +75,7 @@
   position: absolute;
   right: 10px;
   bottom: 10px;
-  color: black;
+  color: #000000;
   transition: color 0.5s;
   cursor: pointer;
 }
@@ -89,7 +89,7 @@
 }
 
 .more:active {
-  color: black;
+  color: #000000;
   background: none;
   animation: none;
   font-size: 18px;
